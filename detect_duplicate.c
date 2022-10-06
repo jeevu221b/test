@@ -7,7 +7,6 @@ int main()
     char temp[10] = "zero";
     int i = 0, j;
     char unique[5][10] = {};
-    // memcpy(all[0], dark, sizeof(dark));
     for (i = 0; i < 5; i++)
     {
         for (j = i + 1; j < 5; j++)
