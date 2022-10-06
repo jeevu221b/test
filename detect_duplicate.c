@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
 int main()
 {
@@ -21,7 +20,7 @@ int main()
     {
         if (strcmp(all[i], temp) != 0)
         {
-            memcpy(unique[i], all[i], sizeof(all[i]));
+            strcpy(unique[i], all[i]);
         }
     }
 
