@@ -4,6 +4,7 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "files.associations": {
+    "*.ejs": "html",
     "iostream": "cpp",
     "array": "cpp",
     "atomic": "cpp",
@@ -48,7 +49,8 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp",
-    "string.h": "c"
+    "string.h": "c",
+    "iomanip": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }

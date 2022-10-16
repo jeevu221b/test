@@ -1,0 +1,81 @@
+//Create a program that converts meters to feet (up to 2 decimal places) using functions. exmaple: 10 meters = > 65.61 
+
+//Create a program to get temperature of 3 cities , london, delhi, New York. 
+    exmaple: new york => 25 degrees in new york OR 
+    NEW York => 25 degrees in new york OR 
+    nEW York => 25 degrees in new york
+
+// Create a function that trims a string down to 10 characters
+Can you construct a function that accepts a string as input and returns a shortened version?
+There are many applications for data trimming, but consider how a tool like
+this would help eliminate errors in a database.
+exmaple: "Third wave coffee"  => "Third wave"
+
+
+//Program an array sorter
+Given an array of, let's say, 10 numbers, can you create a program that
+returns the array in numerical order? Sorting data is a powerful way to use C++
+. If you're comfortable with a small array, try working with a larger one — or even a matrix.
+exmaple: [10, 88, 99, 1, 4] => [1, 4, 10, 88, 99]
+
+// Create a program that counts duplicate array entries
+exmaple: [10, 88, 99, 1, 4, 10, 88, 99] => 3
+
+
+// Write a program in C++ to print an American flag on the screen.
+ Print the American flag:                                              
+-----------------------------                                          
+* * * * * * ==================================                         
+ * * * * *  ==================================                         
+* * * * * * ==================================                         
+ * * * * *  ==================================                         
+* * * * * * ==================================                         
+ * * * * *  ==================================                         
+* * * * * * ==================================                         
+ * * * * *  ==================================                         
+* * * * * * ==================================                         
+==============================================                         
+==============================================                         
+==============================================                         
+==============================================                         
+==============================================                         
+==============================================
+
+
+
+//Create a function in C++ which accepts the user's first and last name and print them in reverse order with a space between them. Go to the editor
+Sample Output:
+Print the name in reverse where last name comes first:
+-----------------------------------------------------------
+Input First Name: Alexandra
+Input Last Name: Abramov
+Name in reverse is: Abramov Alexandra
+
+string reverseWord(string word){
+    //logic
+    retrun 
+}
+
+
+
+//Create a function in C++ which accepts the user's first and last name and print them in reverse order with a space between them. Go to the editor
+Sample Output:
+Print the name in reverse where last name comes first:
+-----------------------------------------------------------
+Input First Name: Alexandra
+Input Last Name: Abramov
+Name in reverse is: ardanxelA vomarbA
+
+string reverseWord(string word){
+    //logic
+    retrun 
+}
+
+string firstName = "Santo"
+string lastName = "Hugh"
+
+string reversedFirstName = reverseWord(firstName)
+string reversedLastName = reverseWord(lastName)
+
+cout >> reversedFirstName >> " " >> reversedLastName
+
