@@ -1,30 +1,52 @@
 #include <cctype>
 #include <iostream>
+#include <string>
 #include <cstring>
-#include <string.h>
 
 using namespace std;
 int main()
 {
-    string cities[3][10] = {"London", "New York", "Delhi"};
+    char cities[3][10] = {"LONDON", "NEW YORK", "DELHI"};
     int temp[3] = {20, 25, 30};
-    string input;
-    bool match = false;
+    char input[10];
+    char input_capital;
     cout << "Enter the name of the city :";
     cin >> input;
-    int i;
-    for (i = 0; i < 3; i++)
+    for (int i = 0; i < strlen(input); i++)
     {
-        if (input == cities[i])
-        {
-            match = true;
-        }
+        input_capital = toupper(input[i]);
+
+        cout << input_capital;
     }
-    if (match == false)
-    {
-        cout << "We don't have this city available :("
-             << "\n";
-    }
+
+    // char cities[3][10] = {"LONDON", "NEW YORK", "DELHI"};
+    // int temp[3] = {20, 25, 30};
+    // char input;
+    // bool match = false;
+    // cout << "Enter the name of the city :";
+    // cin >> input;
+    // int i;
+    // char ch;
+    // ch = toupper(input);
+    // cout << ch;
+
+    // char input_capital;
+    // char ch = toupper(input);
+    // cout << ch;
+    // input_capital = toupper(input);
+
+    // for (i = 0; i < 3; i++)
+    // {
+    //     if (input_capital == cities[i])
+    //     {
+    //         match = true;
+    //     }
+    // }
+    // if (match == true)
+    // {
+    //     cout << "We don't have this city available :("
+    //          << "\n";
+    // }
     return 0;
 }
 
