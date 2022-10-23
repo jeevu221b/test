@@ -9,57 +9,30 @@ int main()
     char cities[3][10] = {"LONDON", "NEW YORK", "DELHI"};
     int temp[3] = {20, 25, 30};
     char input[10];
-    char input_capital;
+    char input_capital[10];
     cout << "Enter the name of the city :";
     cin >> input;
+    int i;
+    bool match = false;
     for (int i = 0; i < strlen(input); i++)
     {
-        input_capital = toupper(input[i]);
-
-        cout << input_capital;
+        input_capital[i] = toupper(input[i]);
     }
+    cout << input_capital;
+    for (i = 0; i < 3; i++)
+    {
 
-    // char cities[3][10] = {"LONDON", "NEW YORK", "DELHI"};
-    // int temp[3] = {20, 25, 30};
-    // char input;
-    // bool match = false;
-    // cout << "Enter the name of the city :";
-    // cin >> input;
-    // int i;
-    // char ch;
-    // ch = toupper(input);
-    // cout << ch;
+        if (input_capital == cities[i])
+        {
+            match = true;
 
-    // char input_capital;
-    // char ch = toupper(input);
-    // cout << ch;
-    // input_capital = toupper(input);
-
-    // for (i = 0; i < 3; i++)
-    // {
-    //     if (input_capital == cities[i])
-    //     {
-    //         match = true;
-    //     }
-    // }
-    // if (match == true)
-    // {
-    //     cout << "We don't have this city available :("
-    //          << "\n";
-    // }
+            cout << " The temperature of " << cities[i] << " is = " << temp[i];
+        }
+    }
+    if (match == false)
+    {
+        cout << "\n"
+             << " Sorry we don't have this city available ";
+    }
     return 0;
 }
-
-//     char firstname[] = "Hugh";
-//     char lastname[] = "Jackman";
-//     char ch;
-//     for (int i = 0; i < strlen(firstname); i++)
-//     {
-//         // convert str[i] to uppercase
-//         ch = toupper(firstname[i]);
-
-//         cout << ch;
-//     }
-
-// return 0;
-// }

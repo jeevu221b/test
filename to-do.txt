@@ -95,4 +95,48 @@ string reversedFirstName = reverseWord(firstName)
 string reversedLastName = reverseWord(lastName)
 
 cout >> reversedFirstName >> " " >> reversedLastName
+      i 0 1 2 3.......               30
+ j  0   ==============================
+    1   =                            =
+    2   =                            =
+    3   =                            =
+    4   =                            =
+    5   =                            =
+    6   =                            =
+    7   =                            =
+    8   ==============================
+ 
+ // if j == 0 or j == 8 then print all equal to
+    // print equal to until i =0; i<30; i++
 
+// if j == 1 or j<8 then print edit equal to in the beginning and end
+    //    if i == 0 or i == 30; print "="
+    //   if i!= 0 and i!=30; print "
+
+
+    for(j=0; j<8; j++)
+    {
+
+        for(i=0; i<30; i++)
+        {
+           if( j == 0 || j == 8) 
+           {
+            cout << "=";
+           }
+           if( j == 1 || j<8)
+           {
+            if i == 0 or i == 30;
+            {
+                cout << "=";
+            }
+            if i!= 0 and i!=30;
+            {
+                cout << "";
+            }
+
+           }
+           
+
+        }
+       cout << "\n"; 
+    }
