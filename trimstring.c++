@@ -32,23 +32,24 @@ int main()
     {
         input_capital[i] = toupper(user_end[i]);
     }
-    // cout << strlen(user_input);
-    // cout << input_capital;
+    cout << input_capital;
     index = user_trim;
-    if (strcmp(input_capital, front_end) == 0)
+    // if (strcmp(user_input, front_end) == 0)
+    // {
+    //     // cout << "say hi";
+    //     for (int i = user_trim; i < strlen(user_input); i++)
+    //     {
+    //         // trimmed_name[i] = count;
+    //         trimmed_name[count] = user_input[i];
+    //         count = count + 1;
+    //     }
+    //     cout << trimmed_name;
+    // //     // cout << count;
+    // }
+    // cout << user_end << back_end;
+    if (strcmp(input_capital, back_end) == 0)
     {
-        // cout << "say hi";
-        for (int i = user_trim; i < strlen(user_input); i++)
-        {
-            // trimmed_name[i] = count;
-            trimmed_name[count] = user_input[i];
-            count = count + 1;
-        }
-        cout << trimmed_name;
-        // cout << count;
-    }
-    else if (strcmp(input_capital, back_end) == 0)
-    {
+        cout << "here";
         size = strlen(user_input) - user_trim;
         cout << size << user_input << trimmed_name;
         for (int i = 0; i < size; i++)

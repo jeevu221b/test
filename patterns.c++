@@ -20,7 +20,7 @@ int main()
                 {
                     cout << "*";
                 }
-                if (i != 0 && i != 30)
+                else
                 {
                     cout << " ";
                 }
